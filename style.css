@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.header {
+    padding: 30px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.nav__link {
+    color: #cc9630;
+}
+
+.nav__link:hover {
+    color: #cc9630;
+}
+
+.section {
+    height: 100vh;
+}
+
+.main {
+    background-color: rgb(153, 202, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(img/zima-snezhinki-fon.jpg);
+    background-repeat: no-repeat;
+}
+
+
+.title {
+    font-size: 60px;
+    background-image: url(https://png.pngtree.com/element_our/sm/20180422/sm_5adccda4c62fa.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+
+.title__top {
+    font-family: 'Great Vibes', cursive;
+}
+
+.title__bottom {
+    text-transform: uppercase;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.main__desc {
+    width: 500px;
+    font-size: 18px;
+}
+
+.mai__link {
+    background-color: crimson;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    width: 165px;
+    padding: 10px;
+}
+
+.main__link:hover {
+    background-color: #cc9630;
+}
+
+.section__col {
+    width: 50%;
+}
+
+.desc {
+    display: flex;
+}
+
+.subtitle {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #e09e2a;
+}
+
+.desc__img-wrap {
+    background-color: cadetblue;
+    width: 50%;
+}
+
+.desc__info {
+    background-color: chartreuse;
+    padding: 50px;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+    background: url(https://chpic.su/_data/stickers/b/BSPINSGeneral/BSPINSGeneral_033.webp) no-repeat top right /200px;
+    background-position: 100% 100%;
+}
+
+.desc__img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.poem {
+    background-image: url(https://www.meme-arsenal.com/memes/b7d1e56dd3d07af31bd6a4b02749705f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
